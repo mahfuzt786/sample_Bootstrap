@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Task Bootstrap</title>
+		<link rel="icon" href="images/thumb-down.jpg" type="image/x-icon">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header col-xs-12">
+				<div class="headImage col-xs-4">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.jpg" style="width: 100%;" alt="logo" title="logo">
+					</a>
+				</div>
+				<div class="menuSection col-xs-8">
+					<div class="socialIcons col-xs-12 text-right">
+						<img src="images/social.jpg" alt="social sites" title="social sites">
+					</div>
+					<div class="menuItems col-xs-12">
+						<nav class="navbar navbar-default" style="z-index: 99999; border: none;">
+							<div class="container-fluid">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#task-home-navbar" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar top-bar"></span>
+										<span class="icon-bar middle-bar"></span>
+										<span class="icon-bar bottom-bar"></span>
+									</button>
+								</div>
+				
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="task-home-navbar">
+									<ul class="nav navbar-nav navbar-right">
+										<li class="listHome active">
+											<a href="#">Home</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">cruises</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">travel</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">news</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">about us</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">contact us</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">members page</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">my booking</a>
+										</li>
+										
+										<li class="listHome">
+											<a href="#">FAQ's</a>
+										</li>
+										
+									</ul>   
+				
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->    
+						</nav>
+					</div>
+				</div>
+			</div>
+			
+			<!--content display starts here-->
+			<div class="content col-xs-12" style="padding-left: 0; padding-right: 0;">
+				<div class="mainBack col-xs-12" style="margin: auto; float: none;">
+					<div class="mainSearch col-xs-11">
+						<div class="searchInput col-md-9">
+							<div class="input-group">
+								<span>From</span>
+								<input type="text" class="txtSearch" id="txtFrom" name="txtFrom">
+							</div>
+							<div class="input-group">
+								<span>To</span>
+								<input type="text" class="txtSearch" id="txtTo" name="txtTo">
+							</div>
+							<div class="input-group">
+								<span>When</span>
+								<input type="text" class="txtSearch" id="txtWhen" name="txtWhen">
+							</div>
+							<div class="input-group">
+								<span>Till</span>
+								<input type="text" class="txtSearch" id="txtTill" name="txtTill">
+							</div>
+							<div class="input-group">
+								<span style="width: 60px;">adults</span>
+								<select class="selectSearch">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+							<div class="input-group">
+								<span style="width: 60px;">childs</span>
+								<select class="selectSearch">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+							<div class="input-group">
+								<span style="width: 60px;">infants</span>
+								<select class="selectSearch">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+							<div class="input-group">
+								<span style="width: 80px;">flight type</span>
+								<select class="selectSearch">
+									<option value="economy">Economy</option>
+									<option value="business">Business</option>
+								</select>
+							</div>
+							<div class="input-group">
+								<span style="width: 80px;">flexibility</span>
+								<select class="selectSearch">
+									<option value="any time">Any time</option>
+									<option value="morning">Morning</option>
+								</select>
+							</div>
+						</div>
+						<div class="btnSearch col-md-3 text-right">
+							<a class="btn btn-success" href="#" style="background: #695300;">Search</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="contentDisplay col-xs-11">
+					<div class="rowHead col-xs-12">
+						<span class="headName col-xs-8 text-left">latest travel news</span>
+						<a class="viewMore col-xs-4 text-right">view more <i class="fa fa-chevron-right" style="color: #000;"></i></a>
+					</div>
+					
+					<div class="bigDisplay col-xs-12">
+						<div class="largeSection col-md-7 text-left">
+							<div class="fullDisplay">
+								<div class="leftSection" align="left">
+									<span class="lineF">date 2014</span>
+									<span class="lineS">holiday spot name</span>
+								</div>
+								<div class="rightSection" align="right">
+									<span><strike>$ 335</strike></span>
+									<span><strike>$ 295</strike></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-1"></div>
+						<div class="smallSection col-md-4 text-right">
+							<div class="fullDisplay">
+								<div class="leftSection" align="left">
+									<span class="lineF">date 2014</span>
+									<span class="lineS">holiday spot name</span>
+								</div>
+								<div class="rightSection" align="right">
+									<span><strike>$ 335</strike></span>
+									<span><strike>$ 295</strike></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="rowHead col-xs-12">
+						<span class="headName col-xs-12 text-left">latest flight offers</span>
+					</div>
+					
+					<div class="smallDisplay col-xs-12">
+						<div class="largeSection col-md-7 text-left">
+							<div class="halfDisplay col-md-5">
+								<a href="#">
+									<span class="bigFont">about iceland</span>
+									<span class="smallFont">read all about it</span>
+								</a>
+							</div>
+							<div class="col-md-2">
+							</div>
+							<div class="halfDisplayS col-md-5">
+								<a href="#">
+									<span class="bigFont">center hotels</span>
+									<span class="bigFont">place name</span>
+									<span class="smallFont">watch video</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="smallSection col-md-4">
+							<div class="layerOne col-md-12">
+								<div class="imageSmallDisp col-xs-5">
+									<a href="#" class="firstImg">
+										<span class="bigFont">$ 250</span>
+										<span class="smallFont">place name</span>
+									</a>
+								</div>
+								<div class="col-xs-2">
+								</div>
+								<div class="imageSmallDisp col-xs-5">
+									<a href="#" class="secondImg">
+										<span class="bigFont">$ 399</span>
+										<span class="smallFont">place name</span>
+									</a>
+								</div>
+							</div>
+							<div class="layerOne col-md-12">
+								<div class="imageSmallDisp col-xs-5">
+									<a href="#" class="thirdImg">
+										<span class="bigFont">$ 499</span>
+										<span class="smallFont">place name</span>
+									</a>
+								</div>
+								<div class="col-xs-2">
+								</div>
+								<div class="imageSmallDisp col-xs-5">
+									<a href="#" class="fourthImg">
+										<span class="bigFont">$ 199</span>
+										<span class="smallFont">place name</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="fullDesc col-xs-12">
+						<p> search your holidays by type search your holidays by type search your holidays by type search your holidays by type
+						search your holidays by type search your holidays by type search your holidays by type search your holidays by type</p>
+						
+						<p> search your holidays by type search your holidays by type search your holidays by type search your holidays by type
+						search your holidays by type search your holidays by type search your holidays by type search your holidays by type</p>
+					</div>
+					
+					<div class="bottomDisplay col-md-12">
+						<div class="largeBottom col-md-9">
+							<div class="headBottom col-xs-12">
+								<span class="bigHead">search your holidays by type</span>
+								<span class="smallHead">
+									search your holidays by type search your holidays by type search your holidays by type search your holidays by type
+								</span>
+							</div>
+							<div class="searchTypes col-md-12">
+								<div class="col-md-4" style="padding-left: 0; padding-right: 0; float: left;">
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-1.jpg" alt="Adventure">
+										<span class="textDownSearch col-xs-12">Adventure</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-2.jpg" alt="beach">
+										<span class="textDownSearch col-xs-12">beach</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-1.jpg" alt="city breaks">
+										<span class="textDownSearch col-xs-12">city breaks</span>
+									</div>
+								</div>
+								
+								<div class="col-md-4" style="padding-left: 0; padding-right: 0; float: left;">
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-2.jpg" alt="cruise">
+										<span class="textDownSearch col-xs-12">cruise</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-1.jpg" alt="culture">
+										<span class="textDownSearch col-xs-12">culture</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-2.jpg" alt="honeymoon">
+										<span class="textDownSearch col-xs-12">honeymoon</span>
+									</div>
+								</div>
+								
+								<div class="col-md-4" style="padding-left: 0; padding-right: 0; float: left;">
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-1.jpg" alt="safari">
+										<span class="textDownSearch col-xs-12">safari</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-2.jpg" alt="tropical islands">
+										<span class="textDownSearch col-xs-12">tropical islands</span>
+									</div>
+									
+									<div class="searchIcons col-xs-4">
+										<img class="imgDownSearch col-xs-12" src="images/down-1.jpg" alt="wildlife">
+										<span class="textDownSearch col-xs-12">wildlife</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="smallBottom col-md-3">
+							<div class="headBottom col-xs-12">
+								<span class="bigHead">latest travel tips</span>
+								<span class="smallHead">
+									search your holidays by type search
+								</span>
+							</div>
+							
+							<div class="bottomTips col-xs-12">
+								<div class="tipsSecion col-xs-12">
+									<div class="imgTips col-xs-3">
+										<img class="imgBottomTips" src="images/thumb-down.jpg" alt="admin">
+									</div>
+									<div class="descTips col-xs-9">
+										<span class="tipsMsg col-xs-12">search your holidays by type search search your holidays by type search</span>
+										<span class="tipsPosted col-xs-12"><i>16/01/2016 by Admin</i></span>
+									</div>
+								</div>
+								
+								<div class="tipsSecion col-xs-12">
+									<div class="imgTips col-xs-3">
+										<img class="imgBottomTips" src="images/thumb-down.jpg" alt="admin">
+									</div>
+									<div class="descTips col-xs-9">
+										<span class="tipsMsg col-xs-12">search your holidays by type search search your holidays by type search</span>
+										<span class="tipsPosted col-xs-12"><i>16/01/2016 by Admin</i></span>
+									</div>
+								</div>
+							</div>
+						</div> <!--end bottom small section-->
+					</div> <!--end bottom display all section-->
+					
+				</div>	<!--contentDisplay ends here-->			
+			</div>  <!--content ends here-->
+		
+			<div class="backToTop">
+				<i class="fa fa-3x fa-arrow-up" style="color: #035952;"></i>
+			</div>
+			<div class="footer col-xs-12">
+				<div class="col1 col-md-3">
+					<div class="footerHead">about us</div>
+					<div class="footerDesc">
+						<p>
+							Search your holidays by type search search your holidays by type search
+						</p>
+						
+						<p>
+							Search your holidays by type search search your holidays by type search
+						</p>
+						
+						<p>
+							Search your holidays by type search search your holidays by type search your holidays by type search
+						</p>
+					</div>
+				</div>
+				
+				<div class="col2 col-md-3">
+					<div class="footerHead">top specials</div>
+					<div class="footerDesc">
+						<span> <a href="#">UK Holidays</a> </span>
+						<span> <a href="#">USA Holidays</a> </span>
+						<span> <a href="#">UAE Holidays</a> </span>
+						<span> <a href="#">Canada Holidays</a> </span>
+						<span> <a href="#">Sprain Holidays</a> </span>
+						<span> <a href="#">Egypt Holidays</a> </span>
+						<span> <a href="#">SA Holidays</a> </span>
+						<span> <a href="#">Assam Holidays</a> </span>
+					</div>
+				</div>
+				
+				<div class="col3 col-md-3">
+					<div class="footerHead">quick links</div>
+					<div class="footerDesc">
+						<span> <a href="#">Career</a> </span>
+						<span> <a href="#">Contact Us</a> </span>
+						<span> <a href="#">About Us</a> </span>
+						<span> <a href="#">Travel Agent Login</a> </span>
+						<span> <a href="#">Testimonials</a> </span>
+						<span> <a href="#">Tourism</a> </span>
+						<span> <a href="#">Privacy Policy</a> </span>
+						<span> <a href="#">Terms of use</a> </span>
+						<span> <a href="#">Online Brochusers</a> </span>
+					</div>
+				</div>
+				
+				<div class="col4 col-md-3">
+					<div class="footerHead">newsletter signup</div>
+					<div class="footerDesc">
+						<span>Offers in your Inbox</span>
+						<p style="margin-top: 40px;">
+							Subscribe to our weekly newsletter to get updates on our latest deals.
+						</p>
+						<p style="margin-top: 20px;">
+							<input type="text" placeholder="Email address" id="emailId" name="emailId">
+							<button class="btn btn-success">Go</button>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>  <!--end of container-->	
+		
+	</body>
+</html>

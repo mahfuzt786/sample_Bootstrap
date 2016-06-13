@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    font-family: arial,tahoma,helvetica,verdana;
+    color: #000000;
+    font-size: 1.3em;
+}
+div.container {
+    width: 100%;
+}
+/** header section **/
+div.container div.header {
+    background-color: #343434;
+    height: auto;
+    min-height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+div.container div.header div.headImage {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100px;
+}
+div.container div.header div.menuSection {
+    padding-left: 0;
+    padding-right: 0;
+}
+div.container div.header div.headImage a.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 100px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding: 0;
+}
+div.container div.header div.menuSection .socialIcons {
+    cursor: pointer;
+}
+div.container div.header div.menuSection .menuItems {
+    padding-left: 0;
+    padding-right: 0;
+}
+/** modifying bootstrap menu **/
+.navbar-default {
+    background-color: #343434;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: capitalize;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #F8C619;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/active.jpg") no-repeat scroll 10px 3px;
+    color: #F8C619;
+}
+.content .mainBack {
+    background: url('../images/back-1.jpg') no-repeat;
+    height: 398px;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+}
+.content .mainBack .mainSearch {
+    background: #F8C619 none repeat scroll 0 0;
+    bottom: 0;
+    float: none;
+    height: auto;
+    left: 4%;
+    margin: auto;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+}
+.content .mainBack .mainSearch .searchInput .input-group {
+    display: inline-table;
+}
+.content .mainBack .mainSearch .searchInput span {
+    color: #000;
+    float: left;
+    font-size: 0.86em;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 45px;
+}
+.content .mainBack .mainSearch .searchInput input {
+    border: 1px solid #666;
+    border-radius: 5px;
+    float: left;
+    height: 30px;
+    padding-left: 5px;
+    width: 150px;
+}
+.content .mainBack .mainSearch .searchInput select {
+    float: left;
+    height: 30px;
+    padding-left: 5px;
+    width: 90px;
+}
+.content .mainBack .mainSearch .btnSearch a {
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 36px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.content .contentDisplay {
+    float: none;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .rowHead {
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .rowHead .headName {
+    color: #876432;
+    font-size: 1.4em;
+    line-height: 25px;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+.content .contentDisplay .rowHead .viewMore {
+    color: #876432;
+    cursor: pointer;
+    font-size: 0.86em;
+    line-height: 25px;
+    padding-right: 0;
+    text-transform: capitalize;
+}
+.content .contentDisplay .bigDisplay {
+    height: auto;
+    min-height: 300px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .bigDisplay .largeSection {
+    background: rgba(0, 0, 0, 0) url("../images/img-1.jpg") no-repeat scroll 0 0;
+    height: 290px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay {
+    bottom: 0;
+    height: 45px;
+    position: absolute;
+    width: 100%;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay .leftSection {
+    float: left;
+    padding-left: 10px;
+    width: 69.9%;
+    height: 45px;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay .leftSection .lineF {
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 0.86em;
+    float: left;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay .leftSection .lineS {
+    color: #F8C619;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 20px;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay .rightSection {
+    background: #f8c619 none repeat scroll 0 0;
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 30%;
+}
+.content .contentDisplay .bigDisplay .largeSection .fullDisplay .rightSection span {
+    font-weight: bold;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.content .contentDisplay .bigDisplay .smallSection {
+    background: rgba(0, 0, 0, 0) url("../images/img-2.jpg") no-repeat scroll 0 0;
+    height: 290px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay {
+    bottom: 0;
+    height: 45px;
+    position: absolute;
+    width: 100%;
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay .leftSection {
+    float: left;
+    padding-left: 10px;
+    width: 69.9%;
+    height: 45px;
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay .leftSection .lineF {
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 0.86em;
+    float: left;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay .leftSection .lineS {
+    color: #F8C619;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 20px;
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay .rightSection {
+    background: #f8c619 none repeat scroll 0 0;
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 30%;
+}
+.content .contentDisplay .bigDisplay .smallSection .fullDisplay .rightSection span {
+    font-weight: bold;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.content .contentDisplay .smallDisplay {
+    height: auto;
+    min-height: 350px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .smallDisplay .largeSection, .content .contentDisplay .smallDisplay .smallSection {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 350px;
+    height: auto;
+}
+.content .contentDisplay .smallDisplay .largeSection .halfDisplay, .content .contentDisplay .smallDisplay .largeSection .halfDisplayS {
+    background: rgba(0, 0, 0, 0) url("../images/img-3.jpg") no-repeat scroll 0 0;
+    height: 320px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 5px;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+}
+.content .contentDisplay .smallDisplay .largeSection .halfDisplay a {
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.content .contentDisplay .smallDisplay .largeSection .halfDisplayS a {
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    bottom: 0;
+    position: absolute;
+}
+.content .contentDisplay .smallDisplay .largeSection .halfDisplay a .bigFont, .content .contentDisplay .smallDisplay .largeSection .halfDisplayS a .bigFont {
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    font-size: 1.5em;
+}
+.content .contentDisplay .smallDisplay .largeSection .halfDisplay a .smallFont, .content .contentDisplay .smallDisplay .largeSection .halfDisplayS a .smallFont {
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    font-size: 0.86em;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 155px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne:last-child {
+    margin-bottom: 0;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a {
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a.firstImg {
+    text-align: right;
+    position: absolute;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a.secondImg {
+    bottom: 0;
+    position: absolute;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a.thirdImg {
+    top: 0;
+    position: absolute;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a.fourthImg {
+    text-align: right;
+    position: absolute;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a .bigFont, .content .contentDisplay .smallDisplay .smallSection .layerOne a .bigFont {
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    font-size: 1.3em;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne a .smallFont, .content .contentDisplay .smallDisplay .smallSection .layerOne a .smallFont {
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    float: left;
+    font-size: 0.86em;
+}
+.content .contentDisplay .smallDisplay .smallSection .layerOne .imageSmallDisp {
+    background: rgba(0, 0, 0, 0) url("../images/img-3.jpg") no-repeat scroll 0 0;
+    height: 155px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 5px;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+}
+.content .contentDisplay .fullDesc {
+    height: auto;
+    min-height: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.content .contentDisplay .fullDesc p {
+    margin: 0;
+    padding: 10px;
+}
+.content .contentDisplay .bottomDisplay {
+    height: auto;
+    min-height: 150px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+}
+.content .contentDisplay .bottomDisplay .largeBottom, .content .contentDisplay .bottomDisplay .smallBottom {
+    height: auto;
+    min-height: 150px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .bottomDisplay .headBottom {
+    height: auto;
+    margin: 10px 0;
+    min-height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .contentDisplay .bottomDisplay .headBottom .bigHead {
+    font-size: 1.2em;
+    line-height: 25px;
+    height: 25px;
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+.content .contentDisplay .bottomDisplay .headBottom .smallHead {
+    font-size: 0.86em;
+    line-height: 25px;
+    min-height: 25px;
+    height: auto;
+    float: left;
+    width: 100%;
+}
+.content .contentDisplay .bottomDisplay .largeBottom .searchTypes {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 100px;
+}
+.content .contentDisplay .bottomDisplay .largeBottom .searchTypes .searchIcons {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 100px;
+    cursor: pointer;
+}
+.content .contentDisplay .bottomDisplay .largeBottom .searchTypes .searchIcons:hover {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.content .contentDisplay .bottomDisplay .largeBottom .searchTypes .searchIcons .textDownSearch
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 100px;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .tipsSecion, .content .contentDisplay .bottomDisplay .smallBottom .bottomTips .tipsSecion .descTips {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .tipsSecion:last-child {
+    margin-bottom: 0;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .descTips:last-child {
+    margin-bottom: 0;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .tipsSecion .imgTips {
+    padding-left: 0;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .descTips .tipsMsg {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 10px;
+    margin-bottom: 5px;
+}
+.content .contentDisplay .bottomDisplay .smallBottom .bottomTips .descTips .tipsPosted {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    min-height: 10px;
+    margin-bottom: 5px;
+}
+.backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 10;
+    background:no-repeat 0 0 white; /* fallback for older browsers */
+    border-radius: 10px;
+}
+.footer {
+    margin-top: 10px;
+    background-color: #343434;
+    border-top: 1px solid #ddd;
+    bottom: 0px;
+    padding: 10px;
+    min-height: 100px;
+    color: #FFF;
+}
+.footer .footerHead {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+    height: 35px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.footer .footerDesc {
+    color: #777;
+    width: 100%;
+    float: left;
+    min-height: 150px;
+}
+.footer .footerDesc span {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    overflow: hidden;
+    border-bottom: 1px solid #444;
+    height: 30px;
+    line-height: 30px;
+}
+.footer .footerDesc span:nth-last-child(2), .footer .footerDesc span:last-child {
+    border-bottom: none;
+}
+.footer .footerDesc span a {
+    text-decoration: none;
+    color: #777;
+}
+.footer .footerDesc span a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+.footer .col4 .footerDesc span {
+    border-bottom: none;
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+}
+.footer .col4 .footerDesc input#emailId {
+    height: 30px;
+    padding-left: 10px;
+}
+.footer .col4 .footerDesc .btn {
+    background: #f8c619 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #333;
+    height: 30px;
+    margin-top: -2px;
+}
